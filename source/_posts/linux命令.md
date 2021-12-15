@@ -2,8 +2,9 @@
 title: linux常用命令
 categories: 
 - linux
+- 日常操作
 tags: 
-- 已整理
+- 未整理
 ---
 
 1. 查看有多少个IP访问：

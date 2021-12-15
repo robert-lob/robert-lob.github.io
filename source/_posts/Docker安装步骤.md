@@ -1,9 +1,10 @@
 ---
-title: IP编址
+title: Docker安装步骤
 categories: 
-- 网络
+- linux
+- 应用部署
 tags: 
-- 已整理
+- 未完成
 ---
 
 ```shell
