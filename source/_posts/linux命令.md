@@ -1,7 +1,9 @@
 ---
 title: linux常用命令
-category: linux
-tag: 未整理
+categories: 
+- linux
+tags: 
+- 已整理
 ---
 
 1. 查看有多少个IP访问：
