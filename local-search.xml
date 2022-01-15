@@ -5,8 +5,8 @@
   
   <entry>
     <title>LVM</title>
-    <link href="/2022/01/15/Linux/LVM/"/>
-    <url>/2022/01/15/Linux/LVM/</url>
+    <link href="/2022/01/15/LVM/"/>
+    <url>/2022/01/15/LVM/</url>
     
     <content type="html"><![CDATA[<h2 id="PV操作"><a href="#PV操作" class="headerlink" title="PV操作"></a>PV操作</h2><h3 id="创建PV"><a href="#创建PV" class="headerlink" title="创建PV"></a>创建PV</h3><p><code>pvcreate [devices]</code></p><h3 id="查询PV"><a href="#查询PV" class="headerlink" title="查询PV"></a>查询PV</h3><p><code>pvscan</code><br><code>pvdisplay [pv names]</code></p><h3 id="PV大小修改"><a href="#PV大小修改" class="headerlink" title="PV大小修改"></a>PV大小修改</h3><p><code>pvresize</code></p><h3 id="删除PV"><a href="#删除PV" class="headerlink" title="删除PV"></a>删除PV</h3><p><code>pvremove</code></p><h2 id="VG操作"><a href="#VG操作" class="headerlink" title="VG操作"></a>VG操作</h2><h3 id="创建VG"><a href="#创建VG" class="headerlink" title="创建VG"></a>创建VG</h3><p><code>vgcreate -s [pe大小，默认4M] [vg name] [pv names]</code></p><h3 id="查询VG"><a href="#查询VG" class="headerlink" title="查询VG"></a>查询VG</h3><p><code>vgscan</code><br><code>vgdisplay [vgnames]</code></p><h3 id="删除VG"><a href="#删除VG" class="headerlink" title="删除VG"></a>删除VG</h3><p><code>vgremove</code></p><h2 id="LV操作"><a href="#LV操作" class="headerlink" title="LV操作"></a>LV操作</h2><h3 id="创建LV"><a href="#创建LV" class="headerlink" title="创建LV"></a>创建LV</h3><p><code>lvcreate -L [lv大小] -n [lv name] [vg name]</code></p><h3 id="查询LV"><a href="#查询LV" class="headerlink" title="查询LV"></a>查询LV</h3><p><code>lvscan</code><br><code>lvdisplay [lvnames]</code></p><h3 id="PV大小修改-1"><a href="#PV大小修改-1" class="headerlink" title="PV大小修改"></a>PV大小修改</h3><p><code>pvresize</code></p><h3 id="删除LV"><a href="#删除LV" class="headerlink" title="删除LV"></a>删除LV</h3><p><code>lvremove</code></p>]]></content>
     
